@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class computeAverage {
+public class ComputeAverage {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -13,5 +13,7 @@ public class computeAverage {
         }
         double average = total/numbers;
         System.out.printf("Average: %f",average);
+
+        input.close();
     }
 }
